@@ -1,0 +1,273 @@
+.section_1 {
+    position: absolute;
+    width: 1405px;
+    height: 827px;
+    left: 0px;
+    top: 5px;
+
+}
+
+.main_heading h1 {
+    position: absolute;
+    height: 176px;
+    left: 12.94%;
+    right: 46.75%;
+    top: calc(50% - 176px/2 - 121.5px);
+    z-index: 10;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    padding-left: 110px;
+
+    background: linear-gradient(to right, white 56%, black 44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.main_image {
+    position: absolute;
+    left: 35.29%;
+    right: 22.35%;
+    top: -2px;
+    bottom: 0%;
+
+}
+
+.black_side {
+    width: 495.88px;
+    height: 825.97px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: black;
+}
+
+.main_heading p {
+    position: absolute;
+    height: 160px;
+    left: 72.55%;
+    right: 0%;
+    top: calc(50% - 160px/2 - 129.5px);
+
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+
+
+    /* Dark Grey */
+    color: #444444;
+    z-index: 10;
+}
+
+button {
+    
+    z-index: 10;
+    position: absolute;
+    width: 286.51px;
+    height: 74.43px;
+    left: 1019.31px;
+    top: 427.97px;
+
+    background: linear-gradient(to right, black 80%, #D5966C 20%);
+    background-color: text;
+    -webkit-background-color: text;
+    color: transparent;
+   
+}
+button{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: white;
+    z-index: 10;
+}
+
+button img {
+    
+    position: absolute;
+    left: 90.43%;
+    right: 8.94%;
+    z-index: 10;
+}
+
+.section_2 {
+
+    margin: 980px auto;
+    display: grid;
+    width: 1110px;
+    grid-template-columns: 400px 710px;
+}
+
+.column_1 {
+    display: grid;
+    width: 400px;
+    grid-template: 1fr 3fr/ 1fr;
+    justify-content: start;
+    row-gap: 200px;
+
+}
+
+.column_2 {
+    display: grid;
+    width: 710px;
+    grid-template: 1fr 1fr 1fr/ 1fr;
+    justify-items: end;
+}
+
+.heading_1 {
+    height: 280px;
+    width: 350px;
+    text-align: left;
+}
+
+.heading_1 h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: bold;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+    height: 120px;
+    width: 350px;
+}
+
+.heading_1 p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    height: 128px;
+    width: 350px;
+}
+
+.heading_2 h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: bold;
+    font-weight: 900px;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 120px;
+    width: 350px;
+    align-items: start;
+    background-color: #151515;
+}
+
+.heading_2 p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    height: 96px;
+    width: 350px;
+    background-color: #151515;
+}
+
+.heading_2 {
+    height: 377px;
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #151515;
+    margin-top: -100px
+}
+
+.image_2 {
+    height: 315px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image_3 {
+    margin-top: -40px;
+}
+
+body {
+    border: 1px solid white;
+    height: 2554px;
+
+}
+
+.footer {
+    position: absolute;
+    height: 244px;
+    width: 1440px;
+    top: 2310px;
+    background-color: black;
+}
+
+.footer_content {
+
+    position: absolute;
+    height: 84px;
+    width: 1110px;
+    left: 165px;
+    margin-top: 70px;
+}
+
+.footer_heading {
+
+    position: absolute;
+    height: 84px;
+    width: 730px;
+    margin-left: 50px;
+}
+
+.footer_heading h1 {
+
+    position: absolute;
+    height: 84px;
+    width: 160px;
+    color: white;
+    font-family: 'Big Shoulders Display';
+    font-style: bold;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-top: -2px;
+}
+
+.footer_heading p {
+    position: absolute;
+    height: 84px;
+    width: 430px;
+    left: 300px;
+    color: white;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: -2px;
+}
+
+.path {
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    left: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
